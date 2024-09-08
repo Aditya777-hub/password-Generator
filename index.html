@@ -5,18 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
-    <link rel="stylesheet" href="pass.css">
+    <link rel="stylesheet" href="pass.css" [()]="fun()">
 </head>
 
 <body>
     <div class="container">
        <h1> Generate a <br><span>random password</span></h1>
         <div class="display">
-            <input type="text" placeholder="Password" id="password">
-            <img src="images/copy.png" alt="">
+            <input type="text" id="password">
+            <img id="copy-btn" src="images/copy.png" alt="">
         </div>
+      <h1   class="reset" onClick="pass()">Reset Password</h1>
     </div>
-
+    
     <script src="pass.js"></script>
 </body>
 

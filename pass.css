@@ -44,3 +44,22 @@ body{
     width: 30px;
     cursor: pointer;
 }
+
+#password{
+    font-size: 30px;
+    border: none;
+    outline: 0;
+    font-weight: 500;
+}
+
+.reset{
+  cursor: pointer;
+  /* font-size: 30px; */
+  /* font-weight: 500; */
+  /* margin-left: px; */
+  color:   rgb(95, 182, 95);
+  /* background-color: rgb(86, 197, 86); */
+  border-bottom: 4px solid rgb(95, 182, 95);;
+  border-radius: 5px;
+  width: 330px;
+}
